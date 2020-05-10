@@ -9,7 +9,7 @@ Calculate Shannon entropy for every position of an aligned fasta file.
 
 # Usage
 Basically, this R script calculates the Shannon entropy of every position in an aligned fasta file. 
-For the entropy calculation it takes the * *diversity* * function from the library * *vegan* * (H = -sum p_i log(b) p_i).
+For the entropy calculation it takes the *diversity* function from the library *vegan* (H = -sum p_i log(b) p_i).
 
 For **a simple usage**, copy the Rscript [entropy.R](https://github.com/MiguelMSandin/DNA-alignment-entropy/blob/master/entropy.R) file to the working directory where you have your aligned fasta file (```FILE_NAME.fasta```) and run: 
 ```
