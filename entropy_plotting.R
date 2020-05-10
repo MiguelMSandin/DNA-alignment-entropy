@@ -58,7 +58,7 @@ positionInfo <- function(data, verbose=TRUE){
 #---- Diversity of alignments    ----
 
 # Choose the aligned fasta file
-file <- "dummy_aligned.fasta"
+file <- "dummy.fasta"
 
 
 # Opening the file and transforme it into a data.frame
