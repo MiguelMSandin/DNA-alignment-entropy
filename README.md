@@ -24,10 +24,9 @@ This will take the aligned fasta file (```FILE_NAME.fasta```) and create a TSV f
 6. uniq:  Unique bases
 7. repe:  Repetitions of the unique bases
 
-For **a more elaborated usage** check the script [entropy_plotting.R](https://github.com/MiguelMSandin/DNA-alignment-entropy/blob/master/entropy_plotting.R). Recommended to open it in *R-studio*. 
+For **a more elaborated usage** check the script [entropy_plotting.R](https://github.com/MiguelMSandin/DNA-alignment-entropy/blob/master/entropy_plotting.R). **Recommended to open it in *R-studio***. 
 With this script you can plot different entropy curves for different group of sequences within the same aligned fasta file.
 The script has comments for main functions and sentences to ease the understanding. Otherwise don't hesitate to contact me.
 
-
-**Lastly**, I'm not a (bio)informatician, so if you want to upgrade/improve or efficiently rewrite the code (in any other language) I'll be very happy to collaborate.
+**Lastly**, if you want to upgrade/improve or efficiently rewrite the code (in any other language) I'll be very happy to collaborate.
 
