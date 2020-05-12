@@ -6,7 +6,7 @@ library(ggplot2)
 args <- commandArgs(trailingOnly=TRUE)
 
 if (length(args)==0) {
-    stop("Input fasta file must be supplied.n", call.=FALSE)
+    stop("Input fasta file must be supplied. \n", call.=FALSE)
 } else {
     file <- args[1]
     
