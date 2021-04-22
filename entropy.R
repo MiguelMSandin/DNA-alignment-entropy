@@ -62,6 +62,6 @@ if (length(args)==0) {
     if(!all(duplicated(nchar(as.character(datadf$sequence)))[-1])){stop("Sequences in fasta file are not aligned.")}
     
     df <- positionInfo(datadf)
-    write.table(df, paste0(gsub("\\..*{3,5}", "", file), "_positionInfo.tsv"), quote=FALSE, row.names=FALSE, sep="\t")
-    cat(paste0("Data frame exported as '", gsub("\\..*{3,5}", "", file), "_positionInfo.tsv' \n"))
+    write.table(df, paste0(gsub("\\.[^\\.]+$", "", file), "_positionInfo.tsv"), quote=FALSE, row.names=FALSE, sep="\t")
+    cat(paste0("Data frame exported as '", gsub("\\.[^\\.]+$", "", file), "_positionInfo.tsv' \n"))
 }
