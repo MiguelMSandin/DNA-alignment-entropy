@@ -91,7 +91,7 @@ for(i in sample){
 
 
 # Export the table with the information for every position. Note there is a new column for the sample (identifier for the group of sequence)
-write.table(df, paste0(gsub("\\..*{3,5}", "", file), "_positionInfo.tsv"), quote=FALSE, row.names=FALSE, sep="\t")
+write.table(df, paste0(gsub("\\.[^\\.]+$", "", file), "_positionInfo.tsv"), quote=FALSE, row.names=FALSE, sep="\t")
 
 
 # Plotting the entropy with ggplot2
