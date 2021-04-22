@@ -104,7 +104,7 @@ dive <- ggplot(df, aes(x=posi, y=shan, colour=sample))+
 dive
 
 # Exporting the PDF of the plot
-pdf(paste(gsub("\\..*{3,5}", "", file), "_alignment_entropy.pdf", sep=""), width=11.69, height=8.27, paper='special')
+pdf(paste(gsub("\\.[^\\.]+$", "", file), "_alignment_entropy.pdf", sep=""), width=11.69, height=8.27, paper='special')
 plot(dive)
 dev.off()
 
