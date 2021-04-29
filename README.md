@@ -30,3 +30,5 @@ The script has comments for main functions and sentences to ease the understandi
 
 **Lastly**, if you want to upgrade/improve or efficiently rewrite the code (in any other language) I'll be very happy to collaborate.
 
+You can find a rewritten version in python here: https://github.com/MiguelMSandin/fasta-functions/blob/main/scripts/alignmentEntropy.py
+
